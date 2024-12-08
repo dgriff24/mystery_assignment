@@ -20,7 +20,6 @@ void main() {
   final exam2 = _getGrades(data: data, text: 'Exam II');
   final finals = _getGrades(data: data, text: 'Final');
 
-  
   for (int i = 0; i < prep.length; i++) {
     final avg = average(
         exam1: exam1[i],
